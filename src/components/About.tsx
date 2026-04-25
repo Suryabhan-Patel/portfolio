@@ -4,9 +4,9 @@ import type { Variants } from 'framer-motion';
 export default function About() {
   const skills = [
     { category: 'Languages', items: ['Python', 'Java'] },
-    { category: 'ML/AI', items: ['Machine Learning', 'Scikit-learn', 'Deep Learning'] },
+    { category: 'ML/AI', items: ['Machine Learning', 'Scikit-learn', 'Stastical Analysis'] },
     { category: 'Data', items: ['Pandas', 'NumPy', 'Data Analysis'] },
-    { category: 'Backend', items: ['FastAPI', 'Streamlit', 'REST APIs'] },
+    { category: 'Backend', items: ['FastAPI', 'Streamlit'] },
   ];
 
   // Premium, fluid easing curve
