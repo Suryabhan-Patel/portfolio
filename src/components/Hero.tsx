@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import { ChevronDown, Sparkles } from 'lucide-react';
 
 export default function Hero() {
@@ -10,9 +11,9 @@ export default function Hero() {
   };
 
   // Ultra-smooth easing curve for that premium feel
-  const customEase = [0.16, 1, 0.3, 1];
+  const customEase = "easeInOut";
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -23,7 +24,7 @@ export default function Hero() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 40, scale: 0.98 },
     visible: {
       opacity: 1,

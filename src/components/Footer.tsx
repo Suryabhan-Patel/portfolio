@@ -11,7 +11,7 @@ export default function Footer() {
   ];
 
   // Premium, fluid easing curve to match other sections
-  const customEase = [0.16, 1, 0.3, 1];
+  const customEase = "easeInOut";
 
   return (
     <footer className="relative bg-[#030303] pt-20 pb-10 px-6 overflow-hidden border-t border-white/[0.05]">

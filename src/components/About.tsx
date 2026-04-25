@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 
 export default function About() {
   const skills = [
@@ -9,9 +10,9 @@ export default function About() {
   ];
 
   // Premium, fluid easing curve
-  const customEase = [0.16, 1, 0.3, 1];
+  const customEase = "easeInOut";
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -22,7 +23,7 @@ export default function About() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,

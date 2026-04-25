@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import { FileDown, GraduationCap, Briefcase, Award } from 'lucide-react';
 
 export default function Resume() {
@@ -48,9 +49,9 @@ export default function Resume() {
   ];
 
   // Premium, fluid easing curve
-  const customEase = [0.16, 1, 0.3, 1];
+  const customEase = "easeInOut";
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -61,7 +62,7 @@ export default function Resume() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, x: -30, scale: 0.98 },
     visible: {
       opacity: 1,
@@ -71,7 +72,7 @@ export default function Resume() {
     },
   };
 
-  const statVariants = {
+  const statVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,

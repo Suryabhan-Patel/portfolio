@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import { Mail, Code, ExternalLink, Briefcase } from 'lucide-react';
 
 export default function Contact() {
@@ -27,9 +28,9 @@ export default function Contact() {
   ];
 
   // Premium, fluid easing curve
-  const customEase = [0.16, 1, 0.3, 1];
+  const customEase = "easeInOut";
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -40,7 +41,7 @@ export default function Contact() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 30, scale: 0.98 },
     visible: {
       opacity: 1,
