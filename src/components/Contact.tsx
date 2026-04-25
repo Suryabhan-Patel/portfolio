@@ -132,7 +132,7 @@ export default function Contact() {
           {/* Premium Touch Badge */}
           <div className="text-center mb-10">
             <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/[0.02] border border-white/[0.05] backdrop-blur-md text-sm md:text-base text-gray-300 font-medium tracking-wide shadow-sm">
-              <span className="text-lg drop-shadow-md">🚀</span> Open to internships, collaborations, and exciting opportunities
+              <span className="text-lg drop-shadow-md"></span> Open to internships, collaborations, and exciting opportunities
             </span>
           </div>
 
