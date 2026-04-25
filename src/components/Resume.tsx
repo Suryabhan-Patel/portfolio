@@ -199,15 +199,7 @@ export default function Resume() {
             {/* Custom Timeline */}
             <div className="relative border-l border-white/10 ml-6 space-y-10">
               {[
-                {
-                  title: 'Data Engineering Intern',
-                  company: 'AWS Academy + EduSkills + AICTE',
-                  year: 'Jan 2026 - Mar 2026',
-                  details: 'Architected scalable data pipelines and mastered cloud-based processing tools. Gained practical expertise in modern data engineering fundamentals.',
-                  tag: 'Virtual Internship',
-                  isRecent: true,
-                  link: 'https://drive.google.com/file/d/1JOhbPG62SIGsYhpIdQtRuv1GN9RHBCTv/view?usp=drive_link', // Placeholder link
-                },
+               
                 {
                   title: 'AI/ML Virtual Intern',
                   company: 'Google for Developers + EduSkills + AICTE',
@@ -216,6 +208,15 @@ export default function Resume() {
                   tag: 'Certified Internship',
                   isRecent: false,
                   link: 'https://drive.google.com/file/d/1fugjQk_Xysoc4uAJK-pjL4-HLygZQH52/view?usp=drive_link', // Placeholder link
+                },
+                 {
+                  title: 'Data Engineering Intern',
+                  company: 'AWS Academy + EduSkills + AICTE',
+                  year: 'Jan 2026 - Mar 2026',
+                  details: 'Architected scalable data pipelines and mastered cloud-based processing tools. Gained practical expertise in modern data engineering fundamentals.',
+                  tag: 'Virtual Internship',
+                  isRecent: true,
+                  link: 'https://drive.google.com/file/d/1JOhbPG62SIGsYhpIdQtRuv1GN9RHBCTv/view?usp=drive_link', // Placeholder link
                 },
               ].map((exp, idx) => (
                 <motion.div

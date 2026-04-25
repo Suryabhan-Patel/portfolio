@@ -163,7 +163,7 @@ export default function Contact() {
                   type="text"
                   name="name"
                   required
-                  placeholder="John Doe"
+                  placeholder="JSurya"
                   className="w-full px-5 py-4 bg-[#0a0a0a] border border-white/[0.05] rounded-xl text-gray-200 placeholder-gray-600 focus:outline-none focus:border-purple-500/50 focus:bg-white/[0.02] focus:shadow-[inset_0_0_20px_rgba(168,85,247,0.05)] transition-all duration-300"
                 />
               </motion.div>
@@ -176,7 +176,7 @@ export default function Contact() {
                   type="email"
                   name="email"
                   required
-                  placeholder="john@example.com"
+                  placeholder="surya@gmail.com"
                   className="w-full px-5 py-4 bg-[#0a0a0a] border border-white/[0.05] rounded-xl text-gray-200 placeholder-gray-600 focus:outline-none focus:border-purple-500/50 focus:bg-white/[0.02] focus:shadow-[inset_0_0_20px_rgba(168,85,247,0.05)] transition-all duration-300"
                 />
               </motion.div>
