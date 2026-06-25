@@ -131,7 +131,7 @@ export default function Resume() {
                   title: 'B.Tech / BE in Computer Science',
                   institution: 'Medicaps University',
                   year: '2023 - Present',
-                  score: 'CGPA 8.9',
+                  score: 'CGPA 9.02',
                   details: 'Focus on AI/ML, Data Science, and Software Development',
                 },
                 {
