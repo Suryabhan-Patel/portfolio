@@ -128,7 +128,7 @@ export default function Resume() {
             <div className="relative border-l border-white/10 ml-6 space-y-10">
               {[
                 {
-                  title: 'B.Tech / BE in Computer Science',
+                  title: 'B.Tech in Computer Science',
                   institution: 'Medicaps University',
                   year: '2023 - Present',
                   score: 'CGPA 9.02',
